@@ -1,0 +1,15 @@
+<view>
+    <swiper class="swiper-main" indicator-dots="true" autoplay="true" circular="true">
+        <swiper-item><image class="banner" src='/images/banner.png'></image></swiper-item>
+        <swiper-item><image class="banner" src='/images/banner2.png'></image></swiper-item>
+        <swiper-item><image class="banner" src='/images/banner3.png'></image></swiper-item>
+    </swiper>
+
+    <block wx:for="{{post_key}}" wx:for-item="item">
+        <view>
+            <text>{{item.title}}</text>
+            <text>{{item.content}}</text>
+        </view>
+    </block>
+    
+</view>

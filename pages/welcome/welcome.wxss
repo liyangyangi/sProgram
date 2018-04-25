@@ -1,0 +1,31 @@
+
+page{
+    height: 100%;
+    background: lightblue;
+
+}
+.banner{
+    width:750rpx;
+    height:300rpx;
+}
+.user-img{
+    display: block;
+    margin: 20rpx auto;
+    width:120rpx;
+    height:120rpx;
+}
+.user-name{
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    font-size: 22px;
+}
+.user-content{
+    text-align: center;
+    margin-top: 20rpx;
+}
+.user-content text{
+    font-size: 16px;
+    border: 1px solid #ccc;
+    padding: 3px 5px;
+}

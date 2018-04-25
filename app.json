@@ -1,0 +1,8 @@
+{
+  "pages": [
+    "pages/welcome/welcome",
+    "pages/posts/post"
+    
+  ]
+  
+}

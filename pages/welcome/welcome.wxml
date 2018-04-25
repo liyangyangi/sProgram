@@ -1,0 +1,10 @@
+
+<view class="pages">
+  <image class="banner" src='/images/banner.png'></image>
+  <image class="user-img" src='/images/banner.png'></image>
+  <text class="user-name">Hello,laoyang</text>
+
+  <view class="user-content">
+      <text bindtap="onTap">开始游戏</text>
+  </view>
+</view>
